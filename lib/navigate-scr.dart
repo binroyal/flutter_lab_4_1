@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() {
+void navigateScr() {
   runApp(MaterialApp(
     title: 'Navigation Basics',
     home: FirstRoute(),
