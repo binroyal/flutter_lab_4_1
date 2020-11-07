@@ -1,6 +1,10 @@
 # flutter_lab_4_1
 
-A new Flutter project.
+**Họ và tên: Hoàng Thanh Tùng**
+
+**Mã SV: 1621050736**
+
+A new Flutter project by Tung.
 
 ## #1 Animate a widget across screens
 
