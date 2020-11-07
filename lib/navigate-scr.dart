@@ -16,6 +16,7 @@ class FirstRoute extends StatelessWidget {
       ),
       body: Center(
         child: FlatButton(
+          color: Colors.blue,
           child: Text('Open route'),
           onPressed: () {
             Navigator.push(
@@ -38,6 +39,7 @@ class SecondRoute extends StatelessWidget {
       ),
       body: Center(
         child: FlatButton(
+          color: Colors.blue,
           onPressed: () {
             Navigator.pop(context);
           },
