@@ -464,9 +464,10 @@ class SelectionScreen extends StatelessWidget {
 
 ```
 
+
 **Kết quả thu được:**
 
-![alt](/image/b5.png)
+![alt](/image/B5.png)
 
 ## #6 Send data to a new screen
 
@@ -556,6 +557,7 @@ class DetailScreen extends StatelessWidget {
 
 ```
 
+
 **Kết quả thu được:**
 
-![alt](/image/b6.png)
+![alt](/image/B6.png)
