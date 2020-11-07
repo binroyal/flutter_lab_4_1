@@ -2,15 +2,108 @@
 
 A new Flutter project.
 
-## Getting Started
+## #1 Animate a widget across screens
 
-This project is a starting point for a Flutter application.
+```flutter
+import 'package:flutter/material.dart';
 
-A few resources to get you started if this is your first Flutter project:
+void animate() => runApp(HeroApp());
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+class HeroApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Transition Demo',
+      home: MainScreen(),
+    );
+  }
+}
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+class MainScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Main Screen'),
+      ),
+      body: GestureDetector(
+        child: Hero(
+          tag: 'imageHero',
+          child: Image.network(
+            'https://picsum.photos/250?image=9',
+          ),
+        ),
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (_) {
+            return DetailScreen();
+          }));
+        },
+      ),
+    );
+  }
+}
+
+class DetailScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: GestureDetector(
+        child: Center(
+          child: Hero(
+            tag: 'imageHero',
+            child: Image.network(
+              'https://picsum.photos/250?image=9',
+            ),
+          ),
+        ),
+        onTap: () {
+          Navigator.pop(context);
+        },
+      ),
+    );
+  }
+}
+
+
+```
+![alt](https://picsum.photos/250?image=9)
+
+## #2 Navigate to a new screen and back
+
+```flutter
+
+
+```
+![alt](http://~)
+
+## #3 Navigate with named routes
+
+```flutter
+
+
+```
+![alt](http://~)
+
+## #4 Pass arguments to a named route
+
+```flutter
+
+
+```
+![alt](http://~)
+
+## #5 Return data from a screen
+
+```flutter
+
+
+```
+![alt](http://~)
+
+## #6 Send data to a new screen
+
+```flutter
+
+
+```
+![alt](http://~)
