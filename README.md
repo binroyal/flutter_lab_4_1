@@ -125,7 +125,9 @@ class SecondRoute extends StatelessWidget {
 
 
 ```
-![alt](http://~)
+
+*Kết quả thu được*
+![alt](https://drive.google.com/file/d/1epPUIPpInB18W28XORFInz53XViXV89w/view?fbclid=IwAR3ySAGjJ9C-R2SvHaYtRD9NIeTwH5zWEv9lurgEVXJMDFYaBFvGEIDjJtU)
 
 ## #3 Navigate with named routes
 
@@ -189,7 +191,9 @@ class SecondScreen extends StatelessWidget {
 }
 
 ```
-![alt](http://~)
+
+*Kết quả thu được*
+![alt](https://drive.google.com/file/d/1eiqbLJB-KyV-t2RvcN3bnMXOd7oc7oxg/view?fbclid=IwAR2XPlL-7Gtt_TKT13oILSfqnOddzEuAwAsRpyyfhT1JwDf3npTIrHw0Qi8)
 
 ## #4 Pass arguments to a named route
 
@@ -356,7 +360,9 @@ class ScreenArguments {
 
 
 ```
-![alt](http://~)
+
+*Kết quả thu được*
+![alt](https://drive.google.com/file/d/1evsS5AqCLiJfEsmglg6l5odzG3ZPtEFJ/view?fbclid=IwAR2PKvTPBskq-YpOU-jcVdjK3xpD67li_tt-eFZ9-ifFvHtR7IkLH4327kM)
 
 ## #5 Return data from a screen
 
@@ -454,7 +460,9 @@ class SelectionScreen extends StatelessWidget {
 
 
 ```
-![alt](http://~)
+
+*Kết quả thu được*
+![alt](https://drive.google.com/file/d/1eimF6kjoqBvNCuG-K-u1qkoF1DD5i0pl/view?fbclid=IwAR0Atw1VZgCHq-ctwtSX1-Nveh3L_MHIaHyNf-iqYG6tEfM04OwrNafwX6Y)
 
 ## #6 Send data to a new screen
 
@@ -543,4 +551,6 @@ class DetailScreen extends StatelessWidget {
 
 
 ```
-![alt](http://~)
+
+*Kết quả thu được*
+![alt](https://drive.google.com/file/d/1en9mffqngH9HujxCuRHNGgxstZTP936s/view?fbclid=IwAR2PKvTPBskq-YpOU-jcVdjK3xpD67li_tt-eFZ9-ifFvHtR7IkLH4327kM)
